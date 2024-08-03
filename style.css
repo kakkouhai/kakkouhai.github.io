@@ -197,6 +197,24 @@
     animation-delay: 0.8s, 0s, 0s, 2.8s
 }
 
+.bird-wing-sl1 {
+    position: absolute;
+    width: 22%;
+    height: 500px;
+    background-image: url(images/bard-wing-answer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.bird-fly-sl {
+    left: 15%;
+    animation: fall1 5s linear 1,
+        sway2 2s ease-in-out infinite alternate,
+        fade-in 2s forwards;
+        animation-delay: 1s, 0s, 0s;
+}
+
 
 
 @keyframes fall {
@@ -208,6 +226,7 @@
         top: 100%;
     }
 }
+
 
 @keyframes sway1 {
     from {
@@ -239,6 +258,15 @@
 
     to {
         opacity: 0;
+    }
+}
+
+@keyframes fall1{
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 85%;
     }
 }
 

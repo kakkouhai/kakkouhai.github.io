@@ -16,16 +16,47 @@
     width: 70%;
 }
 .staff-content{
+    width: 85%;
     display: flex;
+    justify-content: space-between;
 }
 .content-logo{
-    width: 25%;
+    width: 30%;
+}
+.logo-name{
+    text-align: center;
 }
 .content-word{
-    width: 75%;
+    width: 65%;
 }
-@media screen and (max-width: 500px) {
-    .contents{
-        width: 90%;
+@media screen and (max-width: 767px) {
+    .staff-content{
+        display: block;
     }
+    .content-logo{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo-name{
+        width: 25%;
+        line-height: 150px;
+    }
+    .logo-img{
+        width: 55%;
+    }
+    .content-word{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 451px) {
+    .content-logo{
+        justify-content: space-between;
+    }
+    .logo-name{
+        width: 38%;
+    }
+    
 }
