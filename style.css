@@ -120,7 +120,7 @@
 }
 
 .bird-fly:nth-child(-n+9) {
-    animation: fall 3.5s linear infinite,
+    animation: fall 3.5s linear,
         sway1 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -128,7 +128,7 @@
 }
 
 .bird-fly:nth-child(n+10):nth-child(-n+18) {
-    animation: fall 3.5s linear infinite,
+    animation: fall 3.5s linear,
         sway2 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -136,7 +136,7 @@
 }
 
 .bird-fly:nth-child(n+19):nth-child(-n+27) {
-    animation: fall 4s linear 1,
+    animation: fall 4s linear,
         sway1 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -144,7 +144,7 @@
 }
 
 .bird-fly:nth-child(n+28):nth-child(-n+36) {
-    animation: fall 4s linear 1,
+    animation: fall 4s linear,
         sway2 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -152,7 +152,7 @@
 }
 
 .bird-fly:nth-child(n+37):nth-child(-n+45) {
-    animation: fall 4.5s linear 1,
+    animation: fall 4.5s linear,
         sway1 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -160,7 +160,7 @@
 }
 
 .bird-fly:nth-child(n+46):nth-child(-n+54) {
-    animation: fall 4.5s linear 1,
+    animation: fall 4.5s linear,
         sway2 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -168,7 +168,7 @@
 }
 
 .bird-fly:nth-child(n+55):nth-child(-n+63) {
-    animation: fall 5.5s linear 1,
+    animation: fall 5.5s linear,
         sway1 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -176,7 +176,7 @@
 }
 
 .bird-fly:nth-child(n+64):nth-child(-n+72) {
-    animation: fall 5.5s linear 1,
+    animation: fall 5.5s linear,
         sway2 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -184,7 +184,7 @@
 }
 
 .bird-fly:nth-child(n+73):nth-child(-n+81) {
-    animation: fall 6.5s linear 1,
+    animation: fall 6.5s linear,
         sway1 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
@@ -192,7 +192,7 @@
 }
 
 .bird-fly:nth-child(n+82):nth-child(-n+90) {
-    animation: fall 6.5s linear 1,
+    animation: fall 6.5s linear,
         sway2 2s ease-in-out infinite alternate,
         fade-in 2s forwards,
         fade-out 1s forwards;
