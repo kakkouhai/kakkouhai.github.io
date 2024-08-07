@@ -33,7 +33,7 @@ const swiper1 = new Swiper('.swiper1', {
 
         setTimeout(() => {
           birdWing.classList.remove('bird-fly');
-        }, 3000);
+        }, 3200);
       });
 
     },
