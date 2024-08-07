@@ -15,6 +15,7 @@
 
 .bird-wing {
     position: absolute;
+    display: none;
     width: 22%;
     height: 500px;
     background-image: url(images/bard-wing1.png);
@@ -45,6 +46,7 @@
 }
 
 .bird-fly {
+    display: block;
     left: 25%;
     z-index: 8;
 }
