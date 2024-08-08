@@ -7,6 +7,20 @@
     text-align: center;
     
 }
+.contents {
+    position: relative;
+    top: 80px;
+}
+
+.con-head {
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
 .content{
     position: relative;
     top: 110px;
