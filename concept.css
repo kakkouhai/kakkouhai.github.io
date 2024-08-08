@@ -87,7 +87,32 @@
     border-right: 10px solid transparent;
     border-bottom: 10px solid #00aabb;
 }
-  
+.con-head {
+    position: relative;
+    top: 120px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 24px;
+}
+
+.b1{
+    color: orangered;
+}
+
+.b2{
+    color: lightskyblue;
+}
+.b3{
+    color: lightsteelblue;
+}
+.b4{
+    color: gray;
+}
+.b5{
+    color: lightblue;
+}
 .main {
     position: relative;
     top: 90px;
