@@ -17,6 +17,7 @@
 }
 .staff-content{
     width: 85%;
+    top: 50px;
     display: flex;
     justify-content: space-between;
 }
