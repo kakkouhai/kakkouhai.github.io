@@ -306,6 +306,9 @@
 }
 
 @media screen and (max-width: 999px) {
+    .con-head{
+        font-size: 18px;
+    }
     .explain {
         min-width: 730px;
     }
