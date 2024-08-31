@@ -58,6 +58,22 @@
     width: 65%;
 }
 
+.rule-content {
+    width: 50%;
+}
+
+.rule-content img {
+    width: 100%;
+}
+
+.two-content {
+    display: flex;
+}
+
+.div-con {
+    width: 50%;
+}
+
 .footer {
     top: 250px;
 }
