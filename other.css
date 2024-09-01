@@ -77,6 +77,13 @@
 .footer {
     top: 250px;
 }
+
+@media screen and (max-width: 999px) {
+    .rule-content {
+        width: 75%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .staff-content{
         display: block;
