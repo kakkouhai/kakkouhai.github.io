@@ -79,6 +79,11 @@
     width: 20%
 }
 
+.rule-head img{
+    border: 4px solid gray;
+    border-radius: 15px;
+}
+
 .two-content {
     display: flex;
 }
@@ -93,7 +98,7 @@
 
 @media screen and (max-width: 999px) {
     .rule-content {
-        width: 75%;
+        width: 90%;
     }
 }
 
