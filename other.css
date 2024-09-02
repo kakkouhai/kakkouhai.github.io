@@ -66,6 +66,19 @@
     width: 100%;
 }
 
+.rule-head {
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule-head a {
+    width: 20%
+}
+
 .two-content {
     display: flex;
 }
