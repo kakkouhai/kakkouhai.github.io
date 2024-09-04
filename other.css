@@ -58,6 +58,10 @@
     width: 65%;
 }
 
+.about-content{
+    display: flex;
+}
+
 .rule-content {
     width: 50%;
 }
