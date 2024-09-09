@@ -96,6 +96,22 @@
     width: 50%;
 }
 
+.entry-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-head a {
+    width: 10%;
+}
+
+.entry-head img {
+    width: 100%;
+    border: 4px solid gray;
+    border-radius: 15px;
+}
+
 .footer {
     top: 250px;
 }
